@@ -569,7 +569,7 @@ def main(unused_argv):
     reader = get_reader()
 
     model_exporter = export_model.ModelExporter(
-        frame_features=FLAGS.frame_features,
+        video_features=FLAGS.frame_features,
         model=model,
         reader=reader)
 
