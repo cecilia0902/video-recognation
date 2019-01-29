@@ -1,4 +1,4 @@
-# Copyright 2016 Google Inc. All Rights Reserved.
+# Copyright 2017 Xinyi Wang. All Rights Reserved.
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -55,7 +55,7 @@ if __name__ == "__main__":
       "features. The model must also be set appropriately (i.e. to read 3D "
       "batches VS 4D batches.")
   flags.DEFINE_string(
-      "model", "FiveLayerNN",
+      "model", "ThreeLayerNN",
       "Which architecture to use for the model. Models are defined "
       "in models.py.")
   flags.DEFINE_bool(
